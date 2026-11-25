@@ -1,0 +1,16 @@
+{
+  "name": "Révisions L1 LEA",
+  "short_name": "Révisions",
+  "description": "Mon application de révision L1 LEA anglais-arabe",
+  "start_url": "./index.html#accueil",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fcf5f8",
+  "theme_color": "#d23f86",
+  "lang": "fr",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

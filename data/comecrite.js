@@ -1,0 +1,118 @@
+DATA.push({
+id:"comecrite", nom:"Communication écrite", couleur:"#34495e",
+examen:"1 h, sur une copie à part, noté sur 20. En 2024-25 : une dissertation (« L'écriture inclusive contribue-t-elle à rendre la société plus égalitaire ? ») avec introduction rédigée, partie I rédigée, reste en plan détaillé, conclusion rédigée. Tes fiches couvrent aussi le résumé, la présentation et la lettre formelle.",
+fiches:[
+{t:"Fiche 1 · Le résumé et les connecteurs", p:[
+"Résumer = réduire un texte à environ ¼ de sa longueur, en gardant fidèlement les idées et leur enchaînement, avec d'autres mots (≠ contraction).",
+"Préparer : comprendre chaque mot, repérer idées principales (1 par paragraphe), idées secondaires, exemples (à supprimer), connecteurs. Code couleur : jaune = connecteurs, vert = mots-clés, bleu = exemples.",
+"6 règles d'or : ¼ ± 10 % (tous les mots comptent, nombre indiqué à la fin) · reformuler · ordre et logique · fidélité · garder le « je » de l'auteur (JAMAIS « l'auteur dit que ») · rien ajouter.",
+"Calcul : 751 mots → 25 % = 187 → fourchette 169 – 205 mots.",
+"Condenser : généraliser les énumérations, supprimer modalisateurs, exemples et idées secondaires, chasser les mots en trop.",
+"Connecteurs : cause (car, puisque, en raison de) · conséquence (donc, c'est pourquoi) · but (afin de) · opposition (mais, cependant, en revanche) · concession (bien que + subjonctif) · addition (de plus, en outre).",
+"Modes : bien que, quoique, pour que + subjonctif · au cas où + conditionnel · si (hypothèse) + indicatif (✘ si j'aurais → si j'avais)."
+]},
+{t:"Fiche 2 · La dissertation", p:[
+"Problématique = l'ensemble des problèmes soulevés par une question et leurs liens. Déplier le sens de chaque mot du sujet.",
+"Type de sujet : argumentatif (prise de position) ou explicatif.",
+"Toujours un plan détaillé avant de rédiger. 3 parties × 3 sous-parties (2 parties riches valent mieux qu'une 3e bâclée).",
+"3 plans : par catégories (aspects) · analytique (causes, conséquences) · dialectique (thèse, antithèse, synthèse) pour une question polémique.",
+"Introduction (15-20 lignes, un seul bloc, rédigée après le plan) : entrée en matière précise (pas « depuis toujours ») · problématique en interrogation indirecte (« on peut se demander si… ») · annonce du plan.",
+"Développement : arguments du moins au plus important, chacun avec un exemple précis, transitions, alinéa par sous-partie. Ennemi n°1 : la contradiction.",
+"Conclusion : bilan obligatoire avec réponse claire, rien de nouveau · ouverture facultative et pertinente. Intro et conclusion cohérentes, rédigées au brouillon."
+]},
+{t:"Fiche 3 · Présentation et typographie", p:[
+"1 idée = 1 paragraphe, avec alinéa. Pas de puces dans un texte rédigé.",
+"Mise en page : marges 2-2,5 cm, interligne 1 à 2, police sobre (Times, Arial).",
+"Citer : Prénom Nom, Titre en italique, Lieu, Éditeur, année, p. X. op. cit. · art. cit. · ibid. Plagiat = fraude.",
+"Italique : titres d'œuvres, journaux, émissions, bateaux, mots étrangers (a priori). Pas d'italique : chapitres (« guillemets »), la Bible, le Coran, sandwich.",
+"Abréviations : M. (jamais Mr), Mme. Pas d'abréviation dans un courrier (Monsieur en toutes lettres).",
+"Majuscules : les Français (nom) mais la cuisine libanaise (adjectif) · jours et mois en minuscule.",
+"Nombres : chiffres pour mesures, prix, heures, % · lettres pour durées et rangs · romains pour siècles et souverains (XVIIIe siècle, Louis XIV). IV = 4, IX = 9, XL = 40, XC = 90."
+]},
+{t:"Fiche 4 · La lettre et le courriel formels", p:[
+"S'adapter au destinataire (vouvoiement, registre standard ou soutenu, pas de jargon).",
+"Mise en page : expéditeur · destinataire · lieu et date · objet · formule d'appel · corps · formule de politesse · signature · PJ.",
+"Corps en 4 étapes : contexte · demande · suite envisagée · formule conclusive.",
+"4 types : information, réclamation (faits précis, jamais agressif), demande (une faveur : « je vous serais reconnaissant(e) si… »), réponse.",
+"Règle n°1 : la formule de politesse reprend EXACTEMENT la formule d'appel. Passe-partout : « Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées. »",
+"À éviter : « vous remerciant par avance », « veuillez trouver ci-joint » (→ je vous prie de bien vouloir trouver ci-joint), « Salutations distinguées. » seul.",
+"Courriel : adresse neutre, objet précis, PJ bien nommée (NOM_Prenom_devoir.pdf), court et aéré, pas de langage SMS ni smileys."
+]}
+],
+quiz:[
+{q:"Un résumé fait en général :", o:["La moitié du texte","Le quart du texte","Le dixième du texte","La même longueur"], a:1, e:"¼, avec une tolérance de ± 10 %.", f:"Fiche 1"},
+{q:"Texte de 751 mots : quelle est la fourchette du résumé ?", o:["150 – 200","169 – 205","180 – 190","200 – 250"], a:1, e:"25 % = 187 mots, ± 10 %.", f:"Fiche 1"},
+{q:"Dans un résumé, quelle phrase est interdite ?", o:["« Bien que le bizutage soit interdit… »","« L'auteur pense que… »","« Nous devons agir… » (si l'auteur dit nous)","« Cependant… »"], a:1, e:"On garde le point de vue de l'auteur, jamais de distance.", f:"Fiche 1"},
+{q:"Que fait-on des exemples dans un résumé ?", o:["On les garde tous","On les supprime","On en ajoute","On les met en liste"], a:1, e:"Code couleur : en bleu, à supprimer.", f:"Fiche 1"},
+{q:"Dans « l'école », combien de mots compte-t-on ?", o:["1","2","3","0"], a:1, e:"Tous les mots comptent, articles compris.", f:"Fiche 1"},
+{q:"« Bien que » est suivi :", o:["De l'indicatif","Du subjonctif","Du conditionnel","De l'infinitif"], a:1, e:"Bien qu'il soit interdit.", f:"Fiche 1"},
+{q:"Quelle phrase est correcte ?", o:["Si j'aurais su, je serais venu.","Si j'avais su, je serais venu.","Si je saurais, je viendrais.","Si j'aurai su, je serais venu."], a:1, e:"Si (hypothèse) + indicatif, jamais de conditionnel.", f:"Fiche 1"},
+{q:"« En revanche » exprime :", o:["La cause","La conséquence","L'opposition","Le but"], a:2, e:"Comme cependant, toutefois, néanmoins.", f:"Fiche 1"},
+{q:"« Afin que » exprime :", o:["Le but","La cause","L'addition","L'hypothèse"], a:0, e:"Et il est suivi du subjonctif.", f:"Fiche 1"},
+{q:"La problématique, c'est :", o:["Le titre du sujet","L'ensemble des problèmes soulevés par la question et leurs liens","La conclusion","L'annonce du plan"], a:1, e:"Problématiser, c'est déplier les facettes du sujet.", f:"Fiche 2"},
+{q:"Pour une question polémique, on choisit un plan :", o:["Par catégories","Analytique","Dialectique","Chronologique"], a:2, e:"Thèse, antithèse, synthèse.", f:"Fiche 2"},
+{q:"Quelle entrée en matière est interdite ?", o:["Un chiffre précis","« Depuis toujours, les hommes… »","Une anecdote datée","Un exemple d'actualité"], a:1, e:"Trop vague.", f:"Fiche 2"},
+{q:"Dans l'introduction, la problématique se pose :", o:["Avec un point d'interrogation direct","En interrogation indirecte : « on peut se demander si… »","En note de bas de page","En titre"], a:1, e:"Pas de « ? ».", f:"Fiche 2"},
+{q:"Quelle annonce de plan est interdite ?", o:["« Dans un premier temps… »","« Nous commencerons par… »","« Dans un grand 1… »","« Enfin, nous verrons que… »"], a:2, e:"Et jamais « nous terminerons par une conclusion ».", f:"Fiche 2"},
+{q:"La conclusion doit obligatoirement contenir :", o:["Une ouverture","Un bilan et une réponse claire","Un nouvel argument","Une citation"], a:1, e:"L'ouverture est facultative ; rien de nouveau.", f:"Fiche 2"},
+{q:"Quel est l'ennemi n°1 d'une dissertation ?", o:["La longueur","La contradiction","Les connecteurs","Les exemples"], a:1, e:"Opposer des arguments ≠ affirmer une chose et son contraire.", f:"Fiche 2"},
+{q:"Comment s'écrit l'introduction ?", o:["En plusieurs paragraphes avec titres","En un seul bloc, sans ligne sautée","En liste à puces","Après la conclusion seulement"], a:1, e:"15 à 20 lignes, rédigée après le plan.", f:"Fiche 2"},
+{q:"Dans quel ordre ranger les arguments ?", o:["Du plus au moins important","Du moins au plus important","Au hasard","Par ordre alphabétique"], a:1, e:"Intérêt croissant.", f:"Fiche 2"},
+{q:"Le titre d'un journal s'écrit :", o:["Entre guillemets","En italique","En majuscules","Souligné"], a:1, e:"Ex. Paris-Match. Un chapitre : entre guillemets.", f:"Fiche 3"},
+{q:"Quelle abréviation de « Monsieur » est correcte ?", o:["Mr","M.","Mr.","Msr"], a:1, e:"Mr est un anglicisme.", f:"Fiche 3"},
+{q:"Quelle phrase est correcte ?", o:["La cuisine Libanaise est bonne.","La cuisine libanaise est bonne.","les libanais aiment cuisiner.","Le Mardi 3 Janvier."], a:1, e:"Adjectif de nationalité : minuscule.", f:"Fiche 3"},
+{q:"Un siècle s'écrit :", o:["16e siècle","XVIe siècle","seizième siècle","16ème siècle"], a:1, e:"Chiffres romains pour les siècles.", f:"Fiche 3"},
+{q:"XC vaut :", o:["110","90","40","60"], a:1, e:"On soustrait quand le petit est avant : 100 − 10.", f:"Fiche 3"},
+{q:"ibid. signifie :", o:["Ouvrage déjà cité","Même référence que la note juste avant","Article déjà cité","Sans date"], a:1, e:"op. cit. = ouvrage déjà cité.", f:"Fiche 3"},
+{q:"La formule de politesse finale doit :", o:["Être la plus courte possible","Reprendre exactement la formule d'appel","Contenir « vous remerciant par avance »","Être en majuscules"], a:1, e:"« Madame, » → « …, Madame, … ».", f:"Fiche 4"},
+{q:"Quelle formule est correcte ?", o:["Veuillez trouver ci-joint mon CV.","Je vous prie de bien vouloir trouver ci-joint mon CV.","Ci-joint mon CV, merci.","Trouvez mon CV."], a:1, e:"« Veuillez » est un impératif.", f:"Fiche 4"},
+{q:"Quelle formule est à éviter ?", o:["Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.","Vous remerciant par avance.","Je vous prie de croire, Monsieur, à l'assurance de ma respectueuse considération.","Veuillez agréer, Madame, l'expression de mes sincères salutations."], a:1, e:"Elle présume que la réponse est acquise.", f:"Fiche 4"},
+{q:"Une lettre de réclamation doit être :", o:["Agressive pour être efficace","Factuelle (dates, références) et jamais agressive","Très longue","Sans objet"], a:1, e:"Avec les justificatifs en PJ.", f:"Fiche 4"},
+{q:"Un bon nom de pièce jointe :", o:["doc1.pdf","NOM_Prenom_devoir.pdf","final_final2.pdf","sans titre.pdf"], a:1, e:"Nom explicite.", f:"Fiche 4"},
+{q:"Le corps d'une lettre suit l'ordre :", o:["Demande, contexte, conclusion, suite","Contexte, demande, suite, conclusion","Conclusion, demande, contexte","Suite, contexte, demande"], a:1, e:"Les 4 étapes.", f:"Fiche 4"}
+],
+cartes:[
+{r:"Définition du résumé", v:"Réduire à ¼ en gardant les idées et leur logique, avec d'autres mots."},
+{r:"Les 6 règles du résumé", v:"¼ ± 10 % · reformuler · ordre · fidélité · garder le « je » · rien ajouter."},
+{r:"Code couleur", v:"Jaune = connecteurs · vert = mots-clés · bleu = exemples à supprimer."},
+{r:"Connecteurs de cause", v:"car, parce que, puisque, en effet, en raison de, grâce à."},
+{r:"Connecteurs de conséquence", v:"donc, par conséquent, c'est pourquoi, ainsi, de sorte que."},
+{r:"Connecteurs d'opposition", v:"mais, or, cependant, pourtant, toutefois, en revanche, alors que."},
+{r:"Modes après les connecteurs", v:"Bien que, pour que + subjonctif · au cas où + conditionnel · si + indicatif."},
+{r:"Problématique", v:"L'ensemble des problèmes soulevés par la question et leurs liens."},
+{r:"Les 3 plans", v:"Par catégories · analytique · dialectique (thèse, antithèse, synthèse)."},
+{r:"Les 3 étapes de l'introduction", v:"Entrée en matière précise · problématique (on peut se demander si…) · annonce du plan."},
+{r:"La conclusion", v:"Bilan + réponse claire (obligatoire) · ouverture pertinente (facultative)."},
+{r:"Dissertation à l'examen (format 2024-25)", v:"Intro rédigée · partie I rédigée · reste en plan détaillé · conclusion rédigée."},
+{r:"Transition", v:"« Après avoir examiné…, nous allons pourtant voir que… »"},
+{r:"Italique", v:"Titres d'œuvres, journaux, bateaux, mots étrangers. Chapitre → « guillemets »."},
+{r:"Monsieur", v:"M. (jamais Mr) · en toutes lettres dans un courrier."},
+{r:"Chiffres romains", v:"Siècles, souverains : XVIIIe siècle, Louis XIV. IV = 4, IX = 9, XL = 40, XC = 90."},
+{r:"op. cit. / ibid.", v:"Ouvrage déjà cité / même référence que la note précédente."},
+{r:"Lettre : les 4 étapes", v:"Contexte · demande · suite · conclusion."},
+{r:"Formule passe-partout", v:"Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées."},
+{r:"Règle n°1 de la politesse", v:"La formule finale reprend exactement la formule d'appel."},
+{r:"Demande", v:"Une faveur, pas un droit : « Je vous serais reconnaissant(e) si… »"}
+],
+sujets:[
+{q:"« L'écriture inclusive contribue-t-elle à rendre la société plus égalitaire ? » Rédige l'introduction et le plan.", r:[
+"Entrée en matière : un fait précis (débat en France, circulaire, usage dans les universités ou les entreprises).",
+"Définir : écriture inclusive (accord des métiers au féminin, point médian, mots épicènes) · égalitaire.",
+"Problématique : on peut se demander si changer la langue suffit à faire avancer l'égalité réelle.",
+"Plan dialectique possible : I. Un outil qui rend les femmes visibles (métiers au féminin, représentations) · II. Mais des limites (lisibilité, exclusion des dyslexiques, débat sans effet sur les salaires) · III. Un symbole utile s'il accompagne des actions concrètes.",
+"Conclusion : bilan + réponse nuancée, ouverture (ex. inégalités salariales)."]},
+{q:"« Les réseaux sociaux sont-ils de vrais outils de communication ? » Analyse les mots du sujet.", r:[
+"Réseaux sociaux : loisirs (Facebook) ou professionnels (LinkedIn).",
+"Communication : échange, partage, dialogue.",
+"« vrais » : sous-entend qu'ils pourraient être faux.",
+"Reformulation : les réseaux sociaux rendent-ils la communication efficace ?",
+"Sujet argumentatif → plan dialectique."]},
+{q:"Écris un courriel formel pour demander un rattrapage après une absence à un partiel.", r:[
+"Objet : Absence au partiel du … – L1 LEA.",
+"Formule d'appel : Madame, / Monsieur,",
+"Contexte : Étudiante en L1 LEA (groupe …), j'ai été absente le … pour …",
+"Demande : Je vous serais reconnaissante de bien vouloir m'indiquer les modalités d'un éventuel rattrapage.",
+"PJ : Je vous prie de bien vouloir trouver ci-joint mon justificatif.",
+"Politesse : Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées. · Prénom NOM · PJ : NOM_Prenom_justificatif.pdf"]}
+]
+});
